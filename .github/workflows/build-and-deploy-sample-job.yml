@@ -2,8 +2,6 @@ name: roibuild
 
 on:
   push
-    branches:
-      - main  # This action will run on push to main
 
 jobs:
   build_and_deploy_job:
